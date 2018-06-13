@@ -1,7 +1,7 @@
 {
   "name": "frontplate-cli",
   "version": "4.2.2",
-  "description": "既存であるfrontplate-cliに変更を加えている",
+  "description": "既存であるfrontplate-cliに変更したもの",
   "main": "index.js",
   "engines": {
     "node": ">=5.0.0"
@@ -15,8 +15,7 @@
     "url": "git+https://RootCisco@github.com/RootCisco/frontplate-cli-custom.git"
   },
   "keywords": [
-    "frontplate",
-    "cli",
+    "frontplate-cli",
     "front-end",
     "development",
     "template"
