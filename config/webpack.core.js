@@ -25,7 +25,7 @@ module.exports = {
       path.join(process.cwd(), 'node_modules'),
       path.join(__dirname, '../node_modules'),
       "node_modules"
-    ],
+    ]
   },
   resolveLoader: {
     modules: [
@@ -38,7 +38,7 @@ module.exports = {
     rules: [
       {test: /\.js$/, exclude: /node_modules/, loader: 'eslint-loader', enforce: 'pre'},
       {test: /\.html$/, loader: 'html-loader'},
-      {test: /\.json$/, loader: 'json-loader'},
+      {test: /\.json$/, loader: 'json-loader'}
     ]
   },
   plugins: [
@@ -53,7 +53,9 @@ module.exports = {
           failOnError: true
         },
         babel: {
-          presets: ["es2015"]
+          presets: [
+            ['env', {'modules': false}]
+          ]
         }
       }
     })

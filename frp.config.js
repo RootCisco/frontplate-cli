@@ -1,3 +1,8 @@
+/*
+Copyright (c) 2015 frontainer
+Released under the MIT license
+http://opensource.org/licenses/mit-license.php
+*/
 'use strict';
 module.exports = function(production) {
     global.FRP_SRC = global.FRP_SRC || 'src';
