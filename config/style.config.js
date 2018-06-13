@@ -17,7 +17,7 @@ module.exports = {
         verbose: false,
         clean: true,
         params: {},
-        css: `../${FRP_DEST}/assets/css/style.css`,
+        css: `../${FRP_DEST}/assets/css/style.css`
         // script: '../public/assets/js/app.js',
     }
 };
