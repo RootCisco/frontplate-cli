@@ -1,8 +1,8 @@
 # frontplate-cli-custom
-既存のfrontplate-cliをForkして変更を加えたもの。<br>
+既存のfrontplate-cliをForkして変更を加えたもの。<br>
 古くなっていたモジュールをアップデートして調整してみた。
 
-概要、使い方などはこちらを参照してください。
+概要、使い方などはこちらを参照してください。
 - Repository: https://github.com/frontainer/frontplate-cli
 - Wiki: https://github.com/frontainer/frontplate-cli/wiki
 
