@@ -1,5 +1,5 @@
 {
-  "name": "frontplate-cli",
+  "name": "frp-cli-custom",
   "version": "4.2.3",
   "description": "既存であるfrontplate-cliに変更したもの",
   "main": "index.js",
