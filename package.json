@@ -7,7 +7,7 @@
     "node": ">=5.0.0"
   },
   "scripts": {
-    "test": "mocha --require intelli-espower-loader -R spec ./test/index.js",
+    "test": "mocha --require intelli-espower-loader --exit -R spec ./test/index.js",
     "changelog": "conventional-changelog -p eslint -i CHANGELOG.md -w -s -r 0"
   },
   "repository": {
