@@ -1,3 +1,12 @@
+## [4.2.4](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.2.3...v4.2.4) (2018-06-14)
+
+
+### refactor
+
+* postcssのprocessでwarning出るので修正。 ([e6ea49bebd9de0cf712364bf34818d6f1dba927a](https://github.com/RootCisco/frontplate-cli-custom/commit/e6ea49bebd9de0cf712364bf34818d6f1dba927a))
+
+
+
 ## [4.2.3](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.2.2...v4.2.3) (2018-06-14)
 
 
