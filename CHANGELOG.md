@@ -1,3 +1,12 @@
+## [4.2.5](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.2.4...v4.2.5) (2018-06-14)
+
+
+### refactor
+
+* テンプレートのダウンロード先を自分のgithubに変更。 ([20e2ba94a808131cb0180d29dbabe5ed05e13e1d](https://github.com/RootCisco/frontplate-cli-custom/commit/20e2ba94a808131cb0180d29dbabe5ed05e13e1d))
+
+
+
 ## [4.2.4](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.2.3...v4.2.4) (2018-06-14)
 
 
