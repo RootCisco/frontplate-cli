@@ -1,6 +1,7 @@
 'use strict';
 module.exports = {
-    src: `${FRP_SRC}/sass/**/*.scss`,  // 読み込むscss
+    type: 'sass',
+    src: `${FRP_SRC}/style/**/*.{scss,styl,stylus}`,  // 読み込むscss
     dest: `${FRP_DEST}/assets/css`,  // 出力先
     outputStyle: 'compact',
     sourceMap: true,
