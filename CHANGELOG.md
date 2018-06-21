@@ -1,3 +1,12 @@
+# [4.3.0](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.0-0...v4.3.0) (2018-06-21)
+
+
+### fix
+
+* sass-lintの設定ファイル名が間違ってたので修正 ([ba7d24c517ff52554aba1abb913e80a5edf5f504](https://github.com/RootCisco/frontplate-cli-custom/commit/ba7d24c517ff52554aba1abb913e80a5edf5f504))
+
+
+
 # [4.3.0-0](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.2.5...v4.3.0-0) (2018-06-21)
 
 
