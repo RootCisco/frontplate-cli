@@ -1,0 +1,9 @@
+{
+	"colors": "always",
+	"commentSpace": false,
+	"depthLimit": 4,
+	"exclude": ["vendor/**/*", "node_modules/**/*"],
+	"extendPref": "@extend",
+	"parenSpace": "never",
+	"sortOrder": false
+}
