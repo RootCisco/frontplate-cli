@@ -1,3 +1,15 @@
+# [4.3.0-0](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.2.5...v4.3.0-0) (2018-06-21)
+
+
+### add
+
+* createコマンドでpug, stylusのテンプレートをダウンロードできるように。 ([f522dd3b130f193793e61b3fe169f6d6cd195249](https://github.com/RootCisco/frontplate-cli-custom/commit/f522dd3b130f193793e61b3fe169f6d6cd195249))
+* pug, stylus, stylint module add ([6da75bcb29347b58d934999e7ebf73c9f7e43396](https://github.com/RootCisco/frontplate-cli-custom/commit/6da75bcb29347b58d934999e7ebf73c9f7e43396))
+* pugもコンパイルできるようにした ([03e3beab38d2602dfa64ed43beb0d8ba25aeca7a](https://github.com/RootCisco/frontplate-cli-custom/commit/03e3beab38d2602dfa64ed43beb0d8ba25aeca7a))
+* stylusをコンパイルできるように。stylintも導入し、オプションも一つ追加した。 ([9c292ac0922d7ade5ddc47c0b3288de17c00d768](https://github.com/RootCisco/frontplate-cli-custom/commit/9c292ac0922d7ade5ddc47c0b3288de17c00d768))
+
+
+
 ## [4.2.5](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.2.4...v4.2.5) (2018-06-14)
 
 
