@@ -1,3 +1,12 @@
+## [4.3.2](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.1...v4.3.2) (2018-06-22)
+
+
+### fix
+
+* stylintのカスタム設定を勘違いしていたので修正。 ([deae6cbb1c2218dbe87c0d8338e5854d5c9f8d35](https://github.com/RootCisco/frontplate-cli-custom/commit/deae6cbb1c2218dbe87c0d8338e5854d5c9f8d35))
+
+
+
 ## [4.3.1](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.0...v4.3.1) (2018-06-21)
 
 
