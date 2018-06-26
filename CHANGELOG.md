@@ -1,3 +1,12 @@
+## [4.3.5](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.4...v4.3.5) (2018-06-26)
+
+
+### refactor
+
+* stylus.renderでcompressしない ([9380442ca5b03d9880641912c7548fdf697800fe](https://github.com/RootCisco/frontplate-cli-custom/commit/9380442ca5b03d9880641912c7548fdf697800fe))
+
+
+
 ## [4.3.4](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.3...v4.3.4) (2018-06-26)
 
 
