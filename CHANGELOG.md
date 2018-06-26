@@ -1,3 +1,12 @@
+## [4.3.4](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.3...v4.3.4) (2018-06-26)
+
+
+### fix
+
+* productionビルドのときstylusのlintが通ってなかったので修正。 ([aa39850832576a96f7d7fe80ce504cd6237acb98](https://github.com/RootCisco/frontplate-cli-custom/commit/aa39850832576a96f7d7fe80ce504cd6237acb98))
+
+
+
 ## [4.3.3](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.2...v4.3.3) (2018-06-25)
 
 
