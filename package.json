@@ -1,6 +1,6 @@
 {
   "name": "frp-cli-custom",
-  "version": "4.3.6",
+  "version": "4.3.7",
   "description": "既存であるfrontplate-cliに変更したもの",
   "main": "index.js",
   "engines": {
