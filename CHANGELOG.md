@@ -1,3 +1,16 @@
+## [4.3.6](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.5...v4.3.6) (2018-06-26)
+
+
+### fix
+
+* sass-lint.ymlのincludeパスが間違ってたので修正。 ([dfeda436bbdca264766fc10c899071e809985297](https://github.com/RootCisco/frontplate-cli-custom/commit/dfeda436bbdca264766fc10c899071e809985297))
+
+### refactor
+
+* update yarn.lock ([bd9098b39f7001e337eedfd2db4bf945060099fc](https://github.com/RootCisco/frontplate-cli-custom/commit/bd9098b39f7001e337eedfd2db4bf945060099fc))
+
+
+
 ## [4.3.5](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.4...v4.3.5) (2018-06-26)
 
 
