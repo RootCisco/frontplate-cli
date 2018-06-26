@@ -1,3 +1,12 @@
+## [4.3.7](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.6...v4.3.7) (2018-06-26)
+
+
+### refactor
+
+* spriteの出力先を変更。 ([a9097affdaaca5e84b1ce999fb194b0dfc5542f6](https://github.com/RootCisco/frontplate-cli-custom/commit/a9097affdaaca5e84b1ce999fb194b0dfc5542f6))
+
+
+
 ## [4.3.6](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.5...v4.3.6) (2018-06-26)
 
 
