@@ -1,6 +1,5 @@
 'use strict';
 module.exports = {
-    type: 'sass',
     src: `${FRP_SRC}/style/**/*.{scss,styl,stylus}`,  // 読み込むscss
     dest: `${FRP_DEST}/assets/css`,  // 出力先
     outputStyle: 'compact',
@@ -19,6 +18,5 @@ module.exports = {
         clean: true,
         params: {},
         css: `../${FRP_DEST}/assets/css/style.css`
-        // script: '../public/assets/js/app.js',
     }
 };
