@@ -24,6 +24,10 @@ pug_stylus: frp create {project name} -p pug_styl
 
 <br>
 
+***wpのテンプレートは関与してないので、あしからず...。**
+
+<br>
+
 ## License
 MIT License.
 
