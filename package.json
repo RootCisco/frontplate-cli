@@ -54,7 +54,6 @@
     "inquirer": "6.0.0",
     "jasmine": "3.1.0",
     "json-loader": "0.5.7",
-    "json2css": "6.1.0",
     "karma": "2.0.2",
     "karma-jasmine": "1.1.2",
     "karma-phantomjs-launcher": "1.0.4",
