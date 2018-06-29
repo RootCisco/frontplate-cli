@@ -1,0 +1,34 @@
+<% items.forEach(function(item) { %>$<%= filename %>-<%= item.name %> = {
+  x: <%= item.x %>,
+  y: <%= item.y %>,
+  width: <%= item.width %>,
+  height: <%= item.height %>,
+  total_width: <%= item.total_width %>,
+  total_height: <%= item.total_height %>,
+  image: "<%= item.image %>",
+  offset_x: <%= item.offset_x %>,
+  offset_y: <%= item.offset_y %>
+}<% }); %>
+<% if (config.mixin !== false) { %>
+sprite($variable, $scale = 1)
+  $image = $variable[image]
+  $offset_x = $variable[offset_x] * $scale
+  $offset_y = $variable[offset_y] * $scale
+  $width = $variable[width] * $scale
+  $height = $variable[height] * $scale
+  $total_width = $variable[total_width] * $scale
+  $total_height = $variable[total_height] * $scale
+  width: unit($width, 'px')
+  height: unit($height, 'px')
+  background-image: url($image)
+  background-position: unit($offset_x, 'px') unit($offset_y, 'px')
+  background-size: unit($total_width, 'px') unit($total_height, 'px')<% } %>
+<% if (config.selector !== false) { var scale = config.scale || 1; %>
+.<%= filename %>
+  display: inline-block
+  background-repeat: no-repeat
+  <% items.forEach(function(item) {%>
+  &.<%= filename %>-<%= item.name %>
+    sprite($<%= filename %>-<%= item.name %>, <%= scale%>)
+  <% }); %>
+<% } %>
