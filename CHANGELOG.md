@@ -1,3 +1,12 @@
+## [4.3.9](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.8...v4.3.9) (2018-06-29)
+
+
+### refactor
+
+* spriteのtemplateを調整。 ([3e1f9c0a7591d67fde7fed0e8636b4455eed66e7](https://github.com/RootCisco/frontplate-cli-custom/commit/3e1f9c0a7591d67fde7fed0e8636b4455eed66e7))
+
+
+
 ## [4.3.8](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.7...v4.3.8) (2018-06-29)
 
 
