@@ -1,3 +1,12 @@
+## [4.3.8](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.7...v4.3.8) (2018-06-29)
+
+
+### add
+
+* spriteタスクでstylusファイルも生成できるように。 ([b59801da1199f11da0ffa72d4e96452ec1741c93](https://github.com/RootCisco/frontplate-cli-custom/commit/b59801da1199f11da0ffa72d4e96452ec1741c93))
+
+
+
 ## [4.3.7](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.6...v4.3.7) (2018-06-26)
 
 
