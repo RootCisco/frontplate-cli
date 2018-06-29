@@ -8,7 +8,8 @@
     image: "<%= item.image %>",
     offset_x: <%= item.offset_x %>,
     offset_y: <%= item.offset_y %>
-);<% }); %>
+);
+<% }); %>
 <% if (config.mixin !== false) {%>
 @mixin sprite($variable,$scale:1) {
     $image: map_get($variable,image);

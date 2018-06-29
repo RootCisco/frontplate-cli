@@ -8,7 +8,8 @@
   image: "<%= item.image %>",
   offset_x: <%= item.offset_x %>,
   offset_y: <%= item.offset_y %>
-}<% }); %>
+}
+<% }); %>
 <% if (config.mixin !== false) { %>
 sprite($variable, $scale = 1)
   $image = $variable[image]
@@ -22,7 +23,8 @@ sprite($variable, $scale = 1)
   height: unit($height, 'px')
   background-image: url($image)
   background-position: unit($offset_x, 'px') unit($offset_y, 'px')
-  background-size: unit($total_width, 'px') unit($total_height, 'px')<% } %>
+  background-size: unit($total_width, 'px') unit($total_height, 'px')
+<% } %>
 <% if (config.selector !== false) { var scale = config.scale || 1; %>
 .<%= filename %>
   display: inline-block
