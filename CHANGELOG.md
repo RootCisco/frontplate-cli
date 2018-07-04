@@ -1,3 +1,12 @@
+## [4.4.1](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.0...v4.4.1) (2018-07-04)
+
+
+### fix
+
+* htmlコード整形の設定ファイルを入れ忘れてたので追加。 ([a5e8fce9c5da5eeb9c5091493f2c3ed15129b1cb](https://github.com/RootCisco/frontplate-cli-custom/commit/a5e8fce9c5da5eeb9c5091493f2c3ed15129b1cb))
+
+
+
 # [4.4.0](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.10...v4.4.0) (2018-07-04)
 
 
