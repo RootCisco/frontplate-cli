@@ -1,3 +1,16 @@
+# [4.4.0](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.10...v4.4.0) (2018-07-04)
+
+
+### add
+
+* svgスプライトを生成するタスクを追加。 ([37578883fdaeedc11efe9704ccb10a5691d6e27b](https://github.com/RootCisco/frontplate-cli-custom/commit/37578883fdaeedc11efe9704ccb10a5691d6e27b))
+
+### refactor
+
+* ejs_sass, pug_stylのコンパイル分岐の仕方を少し変更した。 ([59ccf926bf78d1fd565779e42a26a8b793fbfa4f](https://github.com/RootCisco/frontplate-cli-custom/commit/59ccf926bf78d1fd565779e42a26a8b793fbfa4f))
+
+
+
 ## [4.3.10](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.3.9...v4.3.10) (2018-06-29)
 
 
