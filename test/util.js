@@ -64,6 +64,7 @@ describe('install', function () {
                 server: require('../config/server.config'),
                 copy: require('../config/copy.config'),
                 sprite: require('../config/sprite.config'),
+                svgSprite: require('../config/svg-sprite.config'),
                 test: require('../config/test.conf')
             });
         assert.deepEqual(util.getConfig({production:true}),{
@@ -76,6 +77,7 @@ describe('install', function () {
             server: require('../config/server.config'),
             copy: require('../config/copy.config'),
             sprite: require('../config/sprite.config'),
+            svgSprite: require('../config/svg-sprite.config'),
             test: require('../config/test.conf')
         });
     });
