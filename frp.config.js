@@ -5,6 +5,7 @@ http://opensource.org/licenses/mit-license.php
 */
 'use strict';
 module.exports = function(production) {
+    global.FRP_TPL_TYPE = global.FRP_TPL_TYPE || 'ejs_sass',
     global.FRP_SRC = global.FRP_SRC || 'src';
     global.FRP_DEST = global.FRP_DEST || 'public';
     return {
@@ -15,6 +16,7 @@ module.exports = function(production) {
         server: require('./config/server.config'),
         copy: require('./config/copy.config'),
         sprite: require('./config/sprite.config'),
+        svgSprite: require('./config/svg-sprite.config'),
         test: require('./config/test.conf')
     }
 };
