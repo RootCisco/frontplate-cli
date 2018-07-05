@@ -1,3 +1,12 @@
+## [4.4.5](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.4...v4.4.5) (2018-07-05)
+
+
+### refactor
+
+* build task retouched ([43aa757c686ce8d6cb590a24eedef2a66fb224d5](https://github.com/RootCisco/frontplate-cli-custom/commit/43aa757c686ce8d6cb590a24eedef2a66fb224d5))
+
+
+
 ## [4.4.4](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.3...v4.4.4) (2018-07-05)
 
 
