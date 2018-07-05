@@ -1,3 +1,12 @@
+## [4.4.2](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.1...v4.4.2) (2018-07-05)
+
+
+### fix
+
+* buildタスクにsvg-spriteを入れ忘れてたので追加。 ([a4d593a92c3a3bc1dfd80a7dec2b278ae90e814c](https://github.com/RootCisco/frontplate-cli-custom/commit/a4d593a92c3a3bc1dfd80a7dec2b278ae90e814c))
+
+
+
 ## [4.4.1](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.0...v4.4.1) (2018-07-04)
 
 
