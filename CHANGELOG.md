@@ -1,3 +1,12 @@
+## [4.4.4](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.3...v4.4.4) (2018-07-05)
+
+
+### refactor
+
+* build時のcopyタスクの実行タイミングを変更。 ([5c8cac1fe69ec4505d6e37b9d7e9fe1434150339](https://github.com/RootCisco/frontplate-cli-custom/commit/5c8cac1fe69ec4505d6e37b9d7e9fe1434150339))
+
+
+
 ## [4.4.3](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.2...v4.4.3) (2018-07-05)
 
 
