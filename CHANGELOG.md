@@ -1,3 +1,8 @@
+## [4.4.3](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.2...v4.4.3) (2018-07-05)
+
+
+
+
 ## [4.4.2](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.1...v4.4.2) (2018-07-05)
 
 
