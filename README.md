@@ -1,6 +1,13 @@
 # frp-cli-custom
 既存のfrontplate-cliをForkして変更を加えたもの。<br>
-古くなっていたモジュールをアップデートして調整してみた。
+古くなっていたモジュールをアップデートして調整してみた。(使えるには使えると思います)
+
+**install**
+```bash
+npm i frp-cli-custom -g
+```
+
+<br>
 
 ## [変更点]
 ### 1. ejs, sassベース、pug, stylusベースのどちらにするかをcreateコマンドで選べるように。
