@@ -31,6 +31,9 @@ pug_stylus: frp create {project name} -p pug_styl
 ### 2. svg-spriteのタスクを追加。（インライン想定）
 
 *外部ファイル読み込み想定にするとpolyfillが必要になってくるためあえてインラインのみにしてます。（現状は複数対応しておりません）
+
+<br>
+
 createタスクで作成したプロジェクトに'svg-sprite'というディレクトリがあります。
 
 svg-sprite配下に任意のsvgを入れてください。
