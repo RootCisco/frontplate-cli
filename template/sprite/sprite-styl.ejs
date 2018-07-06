@@ -19,11 +19,13 @@ sprite($variable, $scale = 1)
   $height = $variable[height] * $scale
   $total_width = $variable[total_width] * $scale
   $total_height = $variable[total_height] * $scale
-  width: unit($width, 'px')
-  height: unit($height, 'px')
   background-image: url($image)
-  background-position: unit($offset_x, 'px') unit($offset_y, 'px')
-  background-size: unit($total_width, 'px') unit($total_height, 'px')
+  background-position: (abs($offset_x) / ($total_width - $width) * 100%) (abs($offset_y) / ($total_height - $height) * 100%)
+  background-size: ($total_width / $width * 100%) ($total_height / $height * 100%)
+  &:after
+    content: ''
+    display: block
+    padding-top: ($height / $width * 100%)
 <% } %>
 <% if (config.selector !== false) { var scale = config.scale || 1; %>
 .<%= filename %>

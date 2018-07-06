@@ -4,7 +4,7 @@
   width: <%= item.width %>,
   height: <%= item.height %>,
   offset_x: <%= item.offset_x %>,
-  offset_y: <%= item.offset_y %>
+  offset_y: <%= item.offset_y %>,
   total_width: <%= item.total_width %>,
   total_height: <%= item.total_height %>,
   image: "<%= item.image %>"
@@ -19,11 +19,14 @@
   $height: map_get($variable, height) * $scale;
   $total_width: map_get($variable, total_width) * $scale;
   $total_height: map_get($variable, total_height) * $scale;
-  width: #{$width}px;
-  height: #{$height}px;
   background-image: url($image);
-  background-position: #{$offset_x}px #{$offset_y}px;
-  background-size: #{$total_width}px #{$total_height}px;
+  background-position: (abs($offset_x) / ($total_width - $width) * 100%) (abs($offset_y) / ($total_height - $height) * 100%);
+  background-size: ($total_width / $width * 100%) ($total_height / $height * 100%);
+  &:after {
+    content: '';
+    display: block;
+    padding-top: ($height / $width * 100%);
+  }
 }<% } %>
 <% if (config.selector !== false) { var scale = config.scale || 1; %>
 .<%= filename %> {
