@@ -1,3 +1,12 @@
+## [4.4.6](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.5...v4.4.6) (2018-07-06)
+
+
+### refactor
+
+* spriteテンプレートをレスポンシブ対応に調整。 ([ab79a57691d690a0ba51ba373a794a87274f13b1](https://github.com/RootCisco/frontplate-cli-custom/commit/ab79a57691d690a0ba51ba373a794a87274f13b1))
+
+
+
 ## [4.4.5](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.4...v4.4.5) (2018-07-05)
 
 
