@@ -2,8 +2,8 @@
 既存のfrontplate-cliをForkして変更を加えたもの。<br>
 古くなっていたモジュールをアップデートして調整してみた。
 
-**[変更点]**<br>
-- ejs, sassベース、pug, stylusベースのどちらにするかをcreateコマンドで選べるように。
+## [変更点]
+### 1. ejs, sassベース、pug, stylusベースのどちらにするかをcreateコマンドで選べるように。
 
 このような感じで選択できます。
 
@@ -25,6 +25,58 @@ pug_stylus: frp create {project name} -p pug_styl
 <br>
 
 ***wpのテンプレートは関与してないので、あしからず...。**
+
+<br>
+
+### 2. svg-spriteのタスクを追加。（インライン想定）
+
+*外部ファイル読み込み想定にするとpolyfillが必要になってくるためあえてインラインのみにしてます。（現状は複数対応しておりません）
+createタスクで作成したプロジェクトに'svg-sprite'というディレクトリがあります。
+
+svg-sprite配下に任意のsvgを入れてください。
+svgSpriteタスクでsvgスプライトがviewディレクトリ配下に_svg-sprite.{ejs, pug}ファイルが作成されます。
+
+あとは任意の箇所で
+```
+// ejs_sass
+<% include view/svg/_svg-sprite %>
+
+// pug_styl
+include view/svg/_svg-sprite
+```
+
+前と同様にfrp.config.jsのsvgSprite:{}内で設定調整できます。
+```javascript
+/*　default settings */
+{
+  src: `${FRP_SRC}/svg-sprite/**/*.svg`,
+  dest: `${FRP_SRC}/view`,
+  shape: {
+    id: {
+      separator: ''
+    },
+    transform: [{
+      svgo: {
+        plugins: [
+          {removeTitle: true},
+          {removeUselessDefs: true},
+          {removeAttrs: {attrs: ['fill', 'id', 'class', 'data-name']}},
+          {removeStyleElement: true},
+          {convertPathData: true},
+          {convertTransform: true}
+        ]
+      }
+    }]
+  },
+  mode: {
+    symbol: {
+      dest: 'svg',
+      sprite: '_svg-sprite',
+      inline: true
+    }
+  }
+}
+```
 
 <br>
 
