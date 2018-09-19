@@ -1,3 +1,12 @@
+## [4.4.7](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.6...v4.4.7) (2018-09-19)
+
+
+### refactor
+
+* modules update. add webpack-glsl-loader. ([c2e363246c7871b39b84200f8f6f4e8bc7166247](https://github.com/RootCisco/frontplate-cli-custom/commit/c2e363246c7871b39b84200f8f6f4e8bc7166247))
+
+
+
 ## [4.4.6](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.5...v4.4.6) (2018-07-06)
 
 
