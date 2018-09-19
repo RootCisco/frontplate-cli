@@ -38,7 +38,8 @@ module.exports = {
     rules: [
       {test: /\.js$/, exclude: /node_modules/, loader: 'eslint-loader', enforce: 'pre'},
       {test: /\.html$/, loader: 'html-loader'},
-      {test: /\.json$/, loader: 'json-loader'}
+      {test: /\.json$/, loader: 'json-loader'},
+      {test: /\.(glsl|frag|vert|vs|fs)$/, loader: 'webpack-glsl-loader'}
     ]
   },
   plugins: [
