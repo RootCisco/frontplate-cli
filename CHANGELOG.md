@@ -1,3 +1,12 @@
+## [4.4.8](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.7...v4.4.8) (2018-09-19)
+
+
+### fix
+
+* babel-loaderのバージョンを7に戻す(babel6.x使用しているため) ([ac557b3c98202831f4f98fbd06896bce4a1ad1e0](https://github.com/RootCisco/frontplate-cli-custom/commit/ac557b3c98202831f4f98fbd06896bce4a1ad1e0))
+
+
+
 ## [4.4.7](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.6...v4.4.7) (2018-09-19)
 
 
