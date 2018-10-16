@@ -7,7 +7,7 @@
 	"commentSpace": false,
 	"cssLiteral": "never",
 	"customProperties": [],
-	"depthLimit": 4,
+	"depthLimit": 6,
 	"duplicates": true,
 	"efficient": "always",
 	"exclude": ["vendor/**/*", "node_modules/**/*"],
