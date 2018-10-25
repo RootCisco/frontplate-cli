@@ -1,3 +1,17 @@
+## [4.4.10](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.9...v4.4.10) (2018-10-25)
+
+
+### refactor
+
+* babel-preset-envの設定を調整。 ([b3b22c04e711dd3e377007ff902f16ce4b989a60](https://github.com/RootCisco/frontplate-cli-custom/commit/b3b22c04e711dd3e377007ff902f16ce4b989a60))
+
+
+
+## [4.4.9](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.8...v4.4.9) (2018-10-16)
+
+
+
+
 ## [4.4.8](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.7...v4.4.8) (2018-09-19)
 
 
