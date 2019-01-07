@@ -1,3 +1,12 @@
+## [4.4.11](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.10...v4.4.11) (2019-01-07)
+
+
+### refactor
+
+* stylusのコンパイルでcssファイルをincludeできるように。 ([57fc5cdc2ebe8e4bfe86ba1fdeac4259fdb5c43f](https://github.com/RootCisco/frontplate-cli-custom/commit/57fc5cdc2ebe8e4bfe86ba1fdeac4259fdb5c43f))
+
+
+
 ## [4.4.10](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.9...v4.4.10) (2018-10-25)
 
 
