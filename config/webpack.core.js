@@ -39,7 +39,28 @@ module.exports = {
       { test: /\.js$/, exclude: /node_modules/, loader: 'eslint-loader', enforce: 'pre' },
       { test: /\.html$/, loader: 'html-loader' },
       { test: /\.json$/, loader: 'json-loader' },
-      { test: /\.(glsl|frag|vert|vs|fs)$/, loader: 'webpack-glsl-loader' }
+      { test: /\.(glsl|frag|vert|vs|fs)$/, loader: 'webpack-glsl-loader' },
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              [
+                'env',
+                {
+                  targets: {
+                    browsers: ['last 2 versions', 'ie >= 10', 'ios >= 10', 'Android >= 4.4']
+                  },
+                  modules: false,
+                  useBuiltIns: true
+                }
+              ]
+            ]
+          }
+        }
+      }
     ]
   },
   plugins: [

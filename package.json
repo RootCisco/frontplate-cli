@@ -75,6 +75,7 @@
     "stylus": "^0.54.5",
     "stylus-linter": "^1.6.7",
     "svg-sprite": "^1.4.0",
+    "terser-webpack-plugin": "^1.2.3",
     "update-notifier": "2.5.0",
     "webpack": "4.19.1",
     "webpack-build-notifier": "0.1.29",

@@ -5,5 +5,6 @@ module.exports = merge(conf, {
     sourceMap: false,
     plugins: [  // postcssプラグイン
         require('postcss-csso')()
-    ]
+    ],
+    noGuide: true
 });

@@ -7,7 +7,10 @@ module.exports = {
     plugins: [  // postcssプラグイン
         require('autoprefixer')({   // autoprefixer(https://github.com/postcss/autoprefixer)
             browsers: [
-              '> 3% in JP'
+                'last 2 versions',
+                'ie >= 10',
+                'ios >= 10',
+                'Android >= 4.4'
             ]
         })
     ],
