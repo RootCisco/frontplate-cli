@@ -1,3 +1,17 @@
+## [4.5.1](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.5.0...v4.5.1) (2019-04-22)
+
+
+### refactor
+
+* 共通化できる設定をまとめる。UgilifyからTerserに ([2581e5d25dca2ce57ec24890829a768ed9fe27a2](https://github.com/RootCisco/frontplate-cli-custom/commit/2581e5d25dca2ce57ec24890829a768ed9fe27a2))
+
+
+
+# [4.5.0](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.11...v4.5.0) (2019-04-22)
+
+
+
+
 ## [4.4.11](https://github.com/RootCisco/frontplate-cli-custom/compare/v4.4.10...v4.4.11) (2019-01-07)
 
 
