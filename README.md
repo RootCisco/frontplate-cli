@@ -17,6 +17,7 @@ npm i frp-cli-custom -g
 <img width="404" alt="2018-06-26 13 32 53" src="https://user-images.githubusercontent.com/11202121/41889717-f1432f7e-7946-11e8-99b6-b0607c86a0f8.png">
 
 プリセットでもいけます。
+**(ejs_sassのテンプレートはあまり使わないのでしばらく更新しません。)**
 
 ```javascript
 ejs_sass: frp create {project name} -p ejs_sass
